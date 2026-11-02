@@ -3,6 +3,11 @@
 イベントの申込から当日の受付までを、SvelteKit のサーバー側機能だけで組んだ小さなアプリです。
 `load` でのデータ取得、`form actions` での更新、コンポーネント分割、型の持ち方を一通り確認するために作りました。
 
+**公開URL: https://event-reception-rho.vercel.app**
+
+構成は Vercel（`@sveltejs/adapter-vercel` / Node ランタイム）+ Neon（PostgreSQL）、
+ローカルは Node 標準の `node:sqlite` で追加の依存なしに動きます。
+
 ## 起動
 
 ```bash
